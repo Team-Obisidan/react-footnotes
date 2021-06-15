@@ -1,6 +1,6 @@
 {
   "name": "@team-obisidan/react-footnotes",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "reveal": true,
   "description": "👣 dead simple footnotes, in React",
   "main": "src/Footnotes.js",
@@ -23,7 +23,7 @@
     "url": "git://github.com/Team-Obisidan/react-footnotes.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "Michael Scott Hertzberg <mshertzberg@gmail.com> (https://hertzber.gs)",
   "license": "WTFPL",
@@ -46,6 +46,7 @@
     "react": ">=16"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -69,6 +70,7 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "rc-tooltip": "^5.1.1",
     "react-tree-walker": "^4.3.0"
   }
 }

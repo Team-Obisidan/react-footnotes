@@ -2,7 +2,7 @@ import * as React from 'react'
 import walker from 'react-tree-walker'
 import Footnote from './Footnote'
 
-class Footnotes extends React.Component {
+export class Footnotes extends React.Component {
   constructor () {
     super()
     this._index = 0
@@ -44,8 +44,4 @@ class Footnotes extends React.Component {
       </React.Fragment>
     )
   }
-}
-
-export {
-  Footnotes
 }
