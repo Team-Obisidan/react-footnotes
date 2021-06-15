@@ -5,7 +5,7 @@ class Footnote extends React.Component {
     const { i, children } = this.props
     return (
       <React.Fragment>
-        {children}<a href={`#footnote-${i}`}><sup>{i}</sup></a>&nbsp;
+        {children}<a href={`#footnote-${i}`}><sup>{i}</sup></a>
       </React.Fragment>
     )
   }
