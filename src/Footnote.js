@@ -1,13 +1,11 @@
 import * as React from 'react'
-import Tooltip from 'rc-tooltip'
 
 class Footnote extends React.Component {
   render () {
-    const { i, desc, children } = this.props
-    let text = <span><sup>{i}</sup>&nbsp;{desc}</span>
+    const { i, children } = this.props
     return (
       <React.Fragment>
-        {children}<Tooltip placement='bottomLeft' overlay={text}><a href={`#footnote-${i}`}><sup>{i}</sup></a></Tooltip>
+        {children}<a href={`#footnote-${i}`}><sup>{i}</sup></a>
       </React.Fragment>
 
     )
